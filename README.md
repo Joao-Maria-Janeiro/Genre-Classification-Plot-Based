@@ -1,5 +1,17 @@
 # Genre Classification based on Plot
 
+## How to run
+First you must install all libraries, simply do:
+```
+$ pip install -r requirements.txt
+```
+After that you must run the classifier:
+```
+$ python classifier.py
+```
+
+This will generate two files, "classifier.joblib" and "vectorizer.joblib", now you don't need to run the classifier again you can just run the "main.py".
+
 ## The idea
 Streaming or movie selling websites really use recommendations in order to increase their views/sells. Genre is a really good comparison point between two movies and manually tagging the genre is a really tedious process that I attempt to eliminate by having an automated tagger. This can be really useful to have lists of genres.
 
