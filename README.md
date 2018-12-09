@@ -21,7 +21,8 @@ This project is a single label classification problem where given a plot we try 
 In order to process the text from the plots I used the TFID vectorizer provided in the sckit library, removing all english stopwords as well as a WordNetLemmatizer from NLTK.
 #### Features Selected
 * Movie Plot
-* Movie GEnre
+* Movie Genre
+
 The data was obtained from IMDB using a web-scrapper from this [repo](https://github.com/ishmeetkohli/imdbGenreClassification)
 
 
